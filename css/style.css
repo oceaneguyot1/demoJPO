@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Source+Sans+Pro&display=swap');
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* Header */
+header{
+    border-top: 40px solid #FFD5CF;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.logo{
+    font-family: 'DM Serif Display', serif;
+    font-size: 25px;
+}
+
+.menu li{
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+.menu li:last-child{
+    margin-right: 0;
+}
+
+/* Présentation */
+.presentation{
+    display: flex;
+    align-items: flex-start;
+    padding: 0 100px;
+    height: calc(100vh - 90px);
+    padding-top: 100px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.presentation h1{
+    font-size: 40px;
+    font-family: 'DM Serif Display', serif;
+}
+
+.presentation p{
+    padding-right: 20px;
+}
+
+.presentation img{
+    width: 60%;
+    height: calc(100vh - 210px);
+}
+
+/* Pouvoirs */
+.pouvoirs{
+    background-color: #FFD5CF;
+    height: 100vh;
+    padding: 0 100px;
+    overflow:auto
+}
+
+.pouvoirs h2{
+    margin-top: 25px;
+    font-size: 30px;
+    font-family: 'DM Serif Display', serif;
+}
+
+.pouvoirs div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 183px);
+}
+
+.pouvoirs img{
+    width: 50%;
+}
+
+.pouvoirs ul{
+    padding: 0;
+    font-size: 20px;
+}
+
+.pouvoirs li{
+    list-style-type: none;
+}
+
+.pouvoirs ul:first-child{
+    text-align: right;
+}
